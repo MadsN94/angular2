@@ -4,7 +4,7 @@ import { HelloWorldService } from './../Services/HelloWorldService';
 
 @Component({
     selector: 'my-hello',
-    templateUrl: 'app/Views/hello-world.component.html',
+    template: '<p>{{hello()}} and from hello-world.component</p>', //'app/Views/hello-world.component.html',
     styleUrls: ['app/Styles/hello-world.component.css'], //Will override globale styles
     providers: [HelloWorldService]
 })
