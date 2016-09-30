@@ -5,7 +5,7 @@ import { Component} from '@angular/core';
     template: ` 
 <h1>My First Angular App</h1>
 <nav>
-    <a routerLink="/hello" routerLinkActive="active">Hello view</a>
+    <a routerLink="/hello" routerLinkActive="active">Click me!</a>
   </nav>
   <router-outlet></router-outlet>
  `
