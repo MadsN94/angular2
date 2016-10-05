@@ -5,11 +5,12 @@ import { BrowserModule } from '@angular/platform-browser';
 //Import components
 import { AppComponent } from './../Components/app.component';
 import { HelloWorldComponent } from './../Components/hello-world.component'; 
+import { WeatherComponent } from './../Components/weather.component'; 
 
 @NgModule({
     imports: [BrowserModule, routing],
-    declarations: [AppComponent, HelloWorldComponent],
+    declarations: [AppComponent, HelloWorldComponent, WeatherComponent],
     providers: [appRoutingProviders],
-    bootstrap: [AppComponent]
+    bootstrap: [ WeatherComponent]
 })
 export class AppModule { }

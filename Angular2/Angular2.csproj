@@ -97,7 +97,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\Styles\hello-world.component.css" />
+    <Content Include="app\Styles\weather.component.css" />
+    <Content Include="app\Views\google-search.component.html" />
     <Content Include="app\Views\hello-world.component.html" />
+    <Content Include="app\Views\weather.component.html" />
     <Content Include="package.json" />
     <Content Include="systemjs.config.js" />
     <Content Include="tsconfig.json" />
@@ -118,6 +121,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\Components\weather.component.ts" />
+    <TypeScriptCompile Include="app\Services\WeatherService.ts" />
     <TypeScriptCompile Include="app\Specs\app.component.spec.ts" />
     <TypeScriptCompile Include="app\app.routing.ts" />
     <TypeScriptCompile Include="app\Components\app.component.ts" />
@@ -129,6 +134,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
