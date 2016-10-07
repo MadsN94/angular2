@@ -96,15 +96,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\Styles\app.component.css" />
     <Content Include="app\Styles\hello-world.component.css" />
     <Content Include="app\Styles\weather.component.css" />
+    <Content Include="app\Views\dashboard.component.html" />
     <Content Include="app\Views\google-search.component.html" />
     <Content Include="app\Views\hello-world.component.html" />
+    <Content Include="app\Views\twitter.component.html" />
     <Content Include="app\Views\weather.component.html" />
     <Content Include="package.json" />
     <Content Include="systemjs.config.js" />
     <Content Include="tsconfig.json" />
     <Content Include="typings.json" />
+    <None Include="Properties\PublishProfiles\madsnorgaard.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -121,7 +125,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\Components\dashboard.component.ts" />
+    <TypeScriptCompile Include="app\Components\twitter.component.ts" />
     <TypeScriptCompile Include="app\Components\weather.component.ts" />
+    <TypeScriptCompile Include="app\Services\TwitterService.ts" />
     <TypeScriptCompile Include="app\Services\WeatherService.ts" />
     <TypeScriptCompile Include="app\Specs\app.component.spec.ts" />
     <TypeScriptCompile Include="app\app.routing.ts" />

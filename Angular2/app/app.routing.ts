@@ -3,11 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 //Import components
 import { AppComponent } from './Components/app.component';
-import { HelloWorldComponent } from './Components/hello-world.component';
+import { DashboardComponent } from './Components/dashboard.component';
+//import { TwitterComponent } from './Components/twitter.component';
 
 const appRoutes: Routes = [
     { path: 'main', component: AppComponent },
-    { path: 'hello', component: HelloWorldComponent }
+    { path: 'dashboard', component: DashboardComponent }
+   // { path: 'TwitterAuthentication', component: TwitterComponent }
 ];
 
 export const appRoutingProviders: any[] = [
