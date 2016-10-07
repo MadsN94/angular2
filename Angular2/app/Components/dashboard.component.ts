@@ -7,4 +7,7 @@
 
 })
 export class DashboardComponent {
+    site() {
+        return "Dashboard";
+    }
 }

@@ -9,10 +9,13 @@ import { AppComponent } from './../Components/app.component';
 import { WeatherComponent } from './../Components/weather.component'; 
 import { TwitterComponent } from './../Components/twitter.component';
 import { DashboardComponent } from './../Components/dashboard.component';
+import { MainComponent } from './../Components/main.component';
+import { CvComponent } from './../Components/cv.component';
+
 
 @NgModule({
     imports: [BrowserModule, routing, FormsModule, HttpModule],
-    declarations: [AppComponent, WeatherComponent, TwitterComponent, DashboardComponent],
+    declarations: [AppComponent, WeatherComponent, TwitterComponent, DashboardComponent, MainComponent, CvComponent],
     providers: [appRoutingProviders],
     bootstrap: [AppComponent]
 })

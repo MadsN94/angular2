@@ -102,6 +102,8 @@
     <Content Include="app\Views\dashboard.component.html" />
     <Content Include="app\Views\google-search.component.html" />
     <Content Include="app\Views\hello-world.component.html" />
+    <Content Include="app\Views\app.component.html" />
+    <Content Include="app\Views\main.component.html" />
     <Content Include="app\Views\twitter.component.html" />
     <Content Include="app\Views\weather.component.html" />
     <Content Include="package.json" />
@@ -125,7 +127,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\Components\cv.component.ts" />
     <TypeScriptCompile Include="app\Components\dashboard.component.ts" />
+    <TypeScriptCompile Include="app\Components\main.component.ts" />
     <TypeScriptCompile Include="app\Components\twitter.component.ts" />
     <TypeScriptCompile Include="app\Components\weather.component.ts" />
     <TypeScriptCompile Include="app\Services\TwitterService.ts" />
